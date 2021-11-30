@@ -229,7 +229,7 @@ spec:
     #           osdsPerDevice: "5"
     #       - name: "/dev/disk/by-id/ata-ST4000DM004-XXXX" # devices can be specified using full udev paths
     #     config: # configuration can be specified at the node level which overrides the cluster level config
-    #   - name: "172.17.4.301"
+    #   - name: "172.17.4.202"
     #     deviceFilter: "^sd."
     # when onlyApplyOSDPlacement is false, will merge both placement.All() and placement.osd
     onlyApplyOSDPlacement: false
